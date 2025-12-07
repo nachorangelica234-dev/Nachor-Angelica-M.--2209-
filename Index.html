@@ -1,0 +1,137 @@
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎<meta charset="UTF-8">
+‎<meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎<title>Pink & Purple Profile</title>
+‎
+‎<style>
+‎    body {
+‎        margin: 0;
+‎        font-family: Arial, sans-serif;
+‎        background: linear-gradient(135deg, #fcd6ff, #e5b3ff, #caa8ff); /* light pink to purple */
+‎        display: flex;
+‎        justify-content: center;
+‎        align-items: center;
+‎        height: 100vh;
+‎    }
+‎
+‎    .profile-card {
+‎        background: #ffffff; /* white card */
+‎        width: 350px;
+‎        border-radius: 25px;
+‎        padding: 30px;
+‎        text-align: center;
+‎        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+‎        position: relative;
+‎        overflow: hidden;
+‎        color: #555;
+‎    }
+‎
+‎    .profile-card::before {
+‎        content: "";
+‎        position: absolute;
+‎        top: -30px;
+‎        right: -30px;
+‎        width: 150px;
+‎        height: 150px;
+‎        background: rgba(255, 182, 248, 0.5); /* soft pink circle */
+‎        border-radius: 50%;
+‎    }
+‎
+‎    .profile-img {
+‎        width: 120px;
+‎        height: 120px;
+‎        border-radius: 50%;
+‎        background: #eee; 
+‎        border: 5px solid #d08bff; /* purple border */
+‎        margin-bottom: 15px;
+‎        object-fit: cover;
+‎    }
+‎
+‎    h2 {
+‎        margin: 10px 0 0;
+‎        color: #a04fff; /* purple */
+‎        font-weight: bold;
+‎    }
+‎
+‎    h4 {
+‎        margin: 5px 0 15px;
+‎        color: #d66aff; /* pinkish purple */
+‎        font-weight: normal;
+‎    }
+‎
+‎    .info-box {
+‎        background: #f7e8ff; /* light lavender */
+‎        padding: 10px;
+‎        margin: 8px 0;
+‎        border-radius: 10px;
+‎        font-size: 14px;
+‎        color: #6b2fa0;
+‎        border: 1px solid #dba6ff;
+‎    }
+‎
+‎    p {
+‎        font-size: 14px;
+‎        margin: 15px 0;
+‎        color: #6d3fa8;
+‎    }
+‎
+‎    .links a {
+‎        text-decoration: none;
+‎        color: #c238ff;
+‎        font-weight: bold;
+‎        margin: 0 8px;
+‎        transition: 0.3s;
+‎    }
+‎
+‎    .links a:hover {
+‎        color: #ff6bf2;
+‎    }
+‎
+‎    .contact-btn {
+‎        display: inline-block;
+‎        margin-top: 20px;
+‎        padding: 10px 20px;
+‎        background: #d454ff; /* purple pink button */
+‎        color: white;
+‎        text-decoration: none;
+‎        border-radius: 20px;
+‎        font-size: 15px;
+‎        cursor: pointer;
+‎        transition: 0.3s;
+‎    }
+‎
+‎    .contact-btn:hover {
+‎        background: #ff7bf4; /* light pink hover */
+‎    }
+‎</style>
+‎
+‎</head>
+‎<body>
+‎
+‎<div class="profile-card">
+‎
+‎
+‎    <h2>Nachor, Angelica M.</h2>
+‎    
+‎
+‎    <div class="info-box">Course/Section: BSIT 2209</div>
+‎    <div class="info-box">Age: 19</div>
+‎    <div class="info-box">Email: nachorangelica234@gmail.com</div>
+‎    <div class="info-box">Phone: 09638439002</div>
+‎    <div class="info-box">Location: Luzon  ave. Quezon City</div>
+‎
+‎    <p>Hi!</p>
+‎
+‎    <div class="links">
+‎        <a href="#">Telegram</a> |
+‎        <a href="#">Instagram</a> |
+‎        <a href="#">GitHub</a>
+‎    </div>
+‎
+‎    <a href="#" class="contact-btn">Contact</a>
+‎</div>
+‎
+‎</body>
+‎</html>
